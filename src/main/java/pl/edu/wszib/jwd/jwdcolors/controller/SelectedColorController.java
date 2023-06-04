@@ -41,5 +41,9 @@ public class SelectedColorController {
         return "select";
     }
 
+    @GetMapping("/")
+    public String showIndex(){
+        return "redirect:select";
+    }
 
 }
